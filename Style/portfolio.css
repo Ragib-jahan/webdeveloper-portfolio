@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0%;
     padding: 0%;
-}
+} */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -63,7 +63,7 @@ nav button {
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
 
 .heading {
@@ -138,7 +138,7 @@ header div p {
 /* main section */
 
 .main-1st-div {
-    margin: 110px 250px;
+    margin: 110px 200px;
     border-radius: 10px;
     background-color: #fff8f3;
     align-items: center;
@@ -167,22 +167,136 @@ header div p {
     font-weight: 400;
 
 }
-.info-title{
-   color: #757575;
-   text-align: center;
-   font-size: 20px;
-   font-weight: 400;
-   margin-top: 40px;
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
 }
 
-.info-description{
+.info-description {
     color: #474747;
-    
- font-size: 20px;
- font-weight: 700;
+
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 131px;
 }
 
-.info-div{
+.info-div {
     display: flex;
     justify-content: space-around;
+}
+
+/* what-i-do */
+
+.what-i-do {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-i-do-paragraph {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 350px;
+    margin-left: 350px;
+
+
+}
+
+/* skill-section */
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+.skils {
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 377px;
+    margin-top: 50px;
+
+}
+
+.skill-discription {
+    padding-top: 20px;
+    padding-right: 33px;
+    padding-left: 33px;
+    padding-bottom: 33px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 33px;
+    margin-top: 38px;
+
+}
+
+section img {
+    margin-left: 27px;
+    margin-top: 30px;
+}
+
+.summary {
+    margin-top: 130px;
+    margin-bottom: 113px;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+.resume-colum-title2 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-top: 5px;
+    ;
+}
+
+.resume-colum-para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 100px;
+    gap: 100px;
+
+
+}
+
+.resume-column2 {
+    margin-right: 100px;
+
 }
